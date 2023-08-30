@@ -200,6 +200,7 @@ header{
     cursor: pointer;
     font-size: 16px;
     background-color: #4e6d4f;
+    color: black;
    }
     .box{
     width: 300px;
