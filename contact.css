@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration:none;
+    text-decoration-line: none;
+    box-sizing:border-box ;
+}
+h6{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+header{ 
+    background-color:rgb(237, 227, 227);
+}
+.logo{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    float: left;
+    
+    
+}
+  .navmanu{
+    align-items: center;
+    gap: 15px;
+    padding: 0px 24px;
+    display:flex;
+    justify-content: space-between;
+    min-height: 70px;
+    
+
+   
+}
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.whatsapp-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+.whatsapp-button img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 0 0; 
+    width: 100%;
+    height:100%; 
+    position: fixed;
+   
+   
+  }  */
+  .bg-image{
+    width: 100%;
+    height:100%; 
+    background-image: url(img/IMG-20230517-WA0030.jpg) ; 
+    content: '';
+    position: absolute;  
+    background-size: cover;
+    z-index: -2; 
+    filter: blur(8px);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+
+  }
+  
+  .container{
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    margin-top: 20px;
+   
+  }
+  
+  h1 {
+    text-align: center;
+     text-decoration: underline #fcfdfe 3px; 
+     color: white;
+    
+  }
+  
+  form {
+    text-align: center;
+    background-color: #8a0585;
+    padding:20px 50px; 
+    border-radius: 0px;
+    border: black solid 1px;
+    color: white;
+    box-shadow: 0px 0px 20px 0px black;
+    background-image: linear-gradient(#a1109f, #9bcbf8);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+    height: 400px;
+    
+  }
+  form:focus{
+    background-color: #fff;
+    border: 2px solid rgb(24, 24, 25);
+  }
+ 
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid rgb(24, 24, 25);
+    border-radius: 3px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+ 
+  input[type="submit"] {
+    background-color: rgb(71, 52, 52);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+   textarea{
+    border-radius: 5px;
+    padding:30px 25px ;
+    height: 100%;
+    width: 80% 
+       
+  }
+  input[type="submit"]:hover {
+    background-color: #ca0da7;
+  }
+  .textarea{
+    float: left;
+    width:100%;
+    height:auto; 
+    margin-top: 5px;
+    max-width: 880px;
+  }
+  @media screen and (max-width:880px){
+    body{
+      grid-template-columns: 1fr;
+      width: 100%;
+      padding: 0 0;
+     
+    }
+
+  }
